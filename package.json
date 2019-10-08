@@ -1,0 +1,25 @@
+{
+  "name": "parrot-style",
+  "version": "1.0.0",
+  "description": "My Code Style",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InkoHX/parrot-style.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "InkoHX (inkohx@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/InkoHX/parrot-style/issues"
+  },
+  "homepage": "https://github.com/InkoHX/parrot-style#readme",
+  "peerDependencies": {
+    "eslint": ">=6.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1"
+  }
+}
