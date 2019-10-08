@@ -1,5 +1,5 @@
 {
-  "name": "@inkohx/codestyle",
+  "name": "@inkohx/eslint-config-codestyle",
   "version": "1.0.0",
   "description": "My Code Style",
   "main": "index.js",
