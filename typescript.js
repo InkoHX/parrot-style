@@ -46,7 +46,7 @@ module.exports = {
         '@typescript-eslint/no-useless-constructor': 'error',
         '@typescript-eslint/prefer-for-of': 'error',
         '@typescript-eslint/prefer-readonly': 'error',
-        '@typescript-eslint/quotes': 'error',
+        '@typescript-eslint/quotes': ['error', 'single'],
         '@typescript-eslint/semi': ['error', 'never'],
         '@typescript-eslint/no-unused-vars': 'error'
       }
