@@ -30,7 +30,7 @@ npm install -D @typescript-eslint/eslint-plugin @typescript-eslint/parser
 
 ```json
 {
-  "extends": "@inkohx/eslint-config-codestyle",
+  "extends": "@inkohx/eslint-config-codestyle/typescript",
   "parserOptions": {
     "project": "./tsconfig.json"
   }
