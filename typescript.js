@@ -18,6 +18,7 @@ module.exports = {
         'no-extra-parens': 'off',
         'quotes': 'off',
         'semi': 'off',
+        'no-unused-vars': 'off',
         '@typescript-eslint/brace-style': ['error'],
         '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
         '@typescript-eslint/explicit-member-accessibility': 'error',
@@ -46,7 +47,8 @@ module.exports = {
         '@typescript-eslint/prefer-for-of': 'error',
         '@typescript-eslint/prefer-readonly': 'error',
         '@typescript-eslint/quotes': 'error',
-        '@typescript-eslint/semi': ['error', 'never']
+        '@typescript-eslint/semi': ['error', 'never'],
+        '@typescript-eslint/no-unused-vars': 'error'
       }
     }
   ]
