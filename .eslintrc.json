@@ -175,7 +175,7 @@
     "space-infix-ops": "error",
     "spaced-comment": [
       "error",
-      "never"
+      "always"
     ],
     "switch-colon-spacing": "error",
     "unicode-bom": "error",
