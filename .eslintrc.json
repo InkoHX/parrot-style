@@ -72,7 +72,10 @@
     "consistent-this": "error",
     "eol-last": "error",
     "func-call-spacing": "error",
-    "function-call-argument-newline": "error",
+    "function-call-argument-newline": [
+      "error",
+      "never"
+    ],
     "function-paren-newline": [
       "error",
       "never"
