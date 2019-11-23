@@ -167,10 +167,7 @@
       "last"
     ],
     "space-before-blocks": "error",
-    "space-before-function-paren": [
-      "error",
-      "never"
-    ],
+    "space-before-function-paren": "error",
     "space-in-parens": [
       "error",
       "never"
