@@ -17,10 +17,10 @@
   },
   "homepage": "https://github.com/InkoHX/parrot-style#readme",
   "peerDependencies": {
-    "eslint": ">=6.5.1"
+    "eslint": ">=6.7.1"
   },
   "devDependencies": {
-    "eslint": "^6.5.1"
+    "eslint": "^6.7.1"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
