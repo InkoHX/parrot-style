@@ -201,7 +201,6 @@
       "error",
       "never"
     ],
-    "sort-imports": "error",
     "keyword-spacing": "error"
   }
 }
