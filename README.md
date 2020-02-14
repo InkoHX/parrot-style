@@ -8,6 +8,12 @@ My code style.
 npm install -D @inkohx/eslint-config-codestyle
 ```
 
+### with React
+
+```bash
+npm install -D eslint-plugin-react-hooks eslint-plugin-react eslint-plugin-jsx-a11y
+```
+
 ## JavaScript
 
 ### Edit .eslintrc.json
