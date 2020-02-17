@@ -23,7 +23,6 @@ module.exports = {
         '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
         '@typescript-eslint/explicit-member-accessibility': 'error',
         '@typescript-eslint/func-call-spacing': 'error',
-        '@typescript-eslint/generic-type-naming': 'error',
         '@typescript-eslint/indent': ['error', 2],
         '@typescript-eslint/member-delimiter-style': [
           'error',
