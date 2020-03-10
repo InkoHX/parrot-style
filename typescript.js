@@ -23,17 +23,23 @@ module.exports = {
         'default-param-last': 'off',
         'no-use-before-define': 'off',
         'camelcase': 'off',
-        '@typescript-eslint/no-use-before-define': ['error', {
-          functions: false,
-          classes: false,
-          enums: false,
-          variables: false,
-          typedefs: false
-        }],
-        '@typescript-eslint/camelcase': ['error', {
-          properties: 'never',
-          genericType: 'always'
-        }],
+        '@typescript-eslint/no-use-before-define': [
+          'error',
+          {
+            functions: false,
+            classes: false,
+            enums: false,
+            variables: false,
+            typedefs: false
+          }
+        ],
+        '@typescript-eslint/camelcase': [
+          'error',
+          {
+            properties: 'never',
+            genericType: 'always'
+          }
+        ],
         '@typescript-eslint/no-empty-interface': 'error',
         '@typescript-eslint/no-unsafe-call': 'error',
         '@typescript-eslint/no-unsafe-member-access': 'error',
