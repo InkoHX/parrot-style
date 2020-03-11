@@ -24,6 +24,7 @@ module.exports = {
         'no-use-before-define': 'off',
         'camelcase': 'off',
         'new-cap': 'off',
+        'no-confusing-arrow': 'off',
         '@typescript-eslint/no-use-before-define': [
           'error',
           {
