@@ -23,6 +23,7 @@ module.exports = {
         'default-param-last': 'off',
         'no-use-before-define': 'off',
         'camelcase': 'off',
+        'new-cap': 'off',
         '@typescript-eslint/no-use-before-define': [
           'error',
           {
@@ -77,14 +78,35 @@ module.exports = {
         '@typescript-eslint/no-require-imports': 'error',
         '@typescript-eslint/no-useless-constructor': 'error',
         '@typescript-eslint/prefer-function-type': 'error',
-        '@typescript-eslint/prefer-nullish-coalescing': 'error',
+        '@typescript-eslint/prefer-nullish-coalescing': [
+          'error',
+          {
+            ignoreConditionalTests: false,
+            ignoreMixedLogicalExpressions: false
+          }
+        ],
         '@typescript-eslint/prefer-optional-chain': 'error',
         '@typescript-eslint/no-namespace': 'error',
         '@typescript-eslint/prefer-for-of': 'error',
         '@typescript-eslint/prefer-readonly': 'error',
         '@typescript-eslint/quotes': ['error', 'single'],
         '@typescript-eslint/semi': ['error', 'never'],
-        '@typescript-eslint/no-unused-vars': 'error'
+        '@typescript-eslint/no-unused-vars': 'error',
+        '@typescript-eslint/no-this-alias': [
+          'error',
+          {
+            allowDestructuring: true
+          }
+        ],
+        '@typescript-eslint/no-extraneous-class': [
+          'error',
+          {
+            allowWithDecorator: true
+          }
+        ],
+        '@typescript-eslint/no-non-null-asserted-optional-chain': 'error',
+        '@typescript-eslint/no-non-null-assertion': 'error',
+        '@typescript-eslint/no-var-requires': 'error'
       }
     }
   ]
