@@ -13,7 +13,7 @@ module.exports = {
     }
   },
   extends: [
-    './eslintrc.json',
+    './.eslintrc.json',
     'plugin:react/recommended',
     'plugin:jsx-a11y/strict'
   ],
