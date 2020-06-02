@@ -1,6 +1,6 @@
 {
   "name": "@inkohx/eslint-config-codestyle",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "My Code Style",
   "main": "index.js",
   "repository": {
