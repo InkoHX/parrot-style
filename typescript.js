@@ -35,13 +35,7 @@ module.exports = {
             typedefs: false
           }
         ],
-        '@typescript-eslint/camelcase': [
-          'error',
-          {
-            properties: 'never',
-            genericType: 'always'
-          }
-        ],
+        
         '@typescript-eslint/no-empty-interface': 'error',
         '@typescript-eslint/no-unsafe-call': 'error',
         '@typescript-eslint/no-unsafe-member-access': 'error',
@@ -72,7 +66,6 @@ module.exports = {
             }
           }
         ],
-        '@typescript-eslint/member-naming': 'error',
         '@typescript-eslint/no-extra-parens': 'error',
         '@typescript-eslint/no-floating-promises': 'error',
         '@typescript-eslint/no-parameter-properties': 'error',
