@@ -111,7 +111,7 @@ module.exports = {
           },
           {
             selector: 'memberLike',
-            modifiers: 'private',
+            modifiers: ['private'],
             format: ['strictCamelCase'],
             leadingUnderscore: 'require'
           },
