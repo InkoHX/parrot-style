@@ -35,7 +35,7 @@ module.exports = {
             typedefs: false
           }
         ],
-        
+
         '@typescript-eslint/no-empty-interface': 'error',
         '@typescript-eslint/no-unsafe-call': 'error',
         '@typescript-eslint/no-unsafe-member-access': 'error',
@@ -100,7 +100,29 @@ module.exports = {
         ],
         '@typescript-eslint/no-non-null-asserted-optional-chain': 'error',
         '@typescript-eslint/no-non-null-assertion': 'error',
-        '@typescript-eslint/no-var-requires': 'error'
+        '@typescript-eslint/no-var-requires': 'error',
+        '@typescript-eslint/naming-convention': [
+          'error',
+          {
+            selector: 'default',
+            format: 'strictCamelCase',
+            trailingUnderscore: 'forbid',
+            leadingUnderscore: 'forbid'
+          },
+          {
+            selector: 'memberLike',
+            modifiers: 'private',
+            leadingUnderscore: 'require'
+          },
+          {
+            selector: 'typeLike',
+            format: 'StrictPascalCase'
+          },
+          {
+            selector: 'variableLike',
+            format: ['strictCamelCase', 'UPPER_CASE']
+          }
+        ]
       }
     }
   ]
