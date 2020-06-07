@@ -105,7 +105,7 @@ module.exports = {
           'error',
           {
             selector: 'default',
-            format: 'strictCamelCase',
+            format: ['strictCamelCase'],
             trailingUnderscore: 'forbid',
             leadingUnderscore: 'forbid'
           },
@@ -116,7 +116,7 @@ module.exports = {
           },
           {
             selector: 'typeLike',
-            format: 'StrictPascalCase'
+            format: ['StrictPascalCase']
           },
           {
             selector: 'variableLike',
